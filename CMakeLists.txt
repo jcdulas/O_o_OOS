@@ -10,7 +10,7 @@ if(NOT TARGET oor::core)
     set(OOR_BUILD_WASM OFF)
     FetchContent_Declare(oor_reader
         GIT_REPOSITORY https://github.com/jcdulas/O_o_Reader.git
-        GIT_TAG 04b1bda11a05a2696d97cf5859944f5f87063f01)
+        GIT_TAG 492ad01cf4930f29449b981c3d82f1433ce09a68)
     FetchContent_MakeAvailable(oor_reader)
 endif()
 
