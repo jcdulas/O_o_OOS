@@ -9,7 +9,7 @@ if(NOT TARGET oor::core)
     set(OOR_BUILD_PYTHON OFF)
     set(OOR_BUILD_WASM OFF)
     FetchContent_Declare(oor_reader
-        GIT_REPOSITORY https://github.com/jcdulas/O_o_Reader.git
+        GIT_REPOSITORY https://github.com/jcdulas/O_o_Model.git
         GIT_TAG 492ad01cf4930f29449b981c3d82f1433ce09a68)
     FetchContent_MakeAvailable(oor_reader)
 endif()
